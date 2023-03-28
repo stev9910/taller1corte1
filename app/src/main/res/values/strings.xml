@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">corte2(dia1)</string>
+    <string name="operacion">operacion</string>
+    <string name="boton_poten">RESULTADO</string>
+    <string name="boton_multi">RESULTADO</string>
+    <string name="boton_fib">OPERACION</string>
+</resources>

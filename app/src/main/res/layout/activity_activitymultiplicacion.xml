@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ga2"
+    tools:context=".Activitymultiplicacion">
+
+    <EditText
+        android:id="@+id/valor_multi1"
+        android:layout_width="124dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#031A35"
+        android:backgroundTintMode="add"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#EDE4E4"
+        android:textColorHighlight="#EDE8E8"
+        android:textColorHint="#ECE6E6"
+        android:textColorLink="#EFE0E0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/valor_multi2"
+        android:layout_width="128dp"
+        android:layout_height="41dp"
+        android:backgroundTint="#021130"
+        android:backgroundTintMode="add"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#F8EEEE"
+        android:textColorHighlight="#DFD0D0"
+        android:textColorHint="#ECE1E1"
+        android:textColorLink="#E6D5D5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.784"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/boton_multi"
+        android:layout_width="157dp"
+        android:layout_height="70dp"
+        android:text="@string/boton_multi"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <TextView
+        android:id="@+id/text_multi"
+        android:layout_width="139dp"
+        android:layout_height="58dp"
+        android:background="#E3D5D5"
+        android:text="Resultado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72" />
+</androidx.constraintlayout.widget.ConstraintLayout>
