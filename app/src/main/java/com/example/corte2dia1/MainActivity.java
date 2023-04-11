@@ -39,6 +39,11 @@ public class MainActivity extends AppCompatActivity {
         }else if(valoropci == 3) {
             Intent pantmulti = new Intent(this,Activitymultiplicacion.class);
             startActivity(pantmulti);
+
+        }else if(valoropci == 4) {
+            Intent pantmaps = new Intent(this, MainActivityMAPS.class);
+            startActivity(pantmaps);
+
         }else {
             Intent pant = new Intent(this, MainActivity.class);
             startActivity(pant);
